@@ -5,20 +5,19 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Setup
 
-* System dependencies
+* install docker if not present
 
-* Configuration
+* `docker-compose build`
 
-* Database creation
+* `docker-compose start db`
 
-* Database initialization
+* `cat schema.sql | docker-compose exec -T  db psql -U postgres`
 
-* How to run the test suite
+* user instructions
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* `docker-compose up -d`
 
 * ...
+# auzmor
