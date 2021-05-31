@@ -19,5 +19,7 @@ Things you may want to cover:
 
 * `docker-compose up -d`
 
+* see curl_example for example
+
 * ...
 # auzmor

@@ -1,0 +1,14 @@
+curl -X POST \
+  http://localhost:3000/inbound/sms.json \
+  -H 'authorization: Basic YXpyMToyMFMwS1BOT0lN' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 6126d33a-b3a8-7761-32df-141c4d43c0b9' \
+  -d '{
+	"sms": {
+		"to": "4924195509198",
+		"from":"4924195509198",
+		"call": "4924195509198",
+		"text": "STOP"
+	}
+}'
